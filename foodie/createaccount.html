@@ -1,0 +1,21 @@
+<head>
+    <title> Create a Account </title>
+  </head>
+  <body>
+    <h6> All questions with a * are required</h6>
+    <h1> Create an Account </h1>
+    <form>
+      <div align='center'>
+        Username <input class='username' type='text' placeholder='Username' required>*<br>
+        Password <input class='password' type='password' name='psw' placeholder='Password' required>*<br>
+        Retype Password <input class='password' type='password' name='repsw' placeholder='Retype Password' required>*
+        <input type='button' onclick='check(this.form)' class='passwordcheck' value='Check Password'><br>
+        Email <input class='email' type='text' placeholder='johndoe476@gmail.com' required>*<br>
+        Phone Number <input class='number' type='text' placeholder='815-555-5035'><br>
+        Gender *<br>
+        <input type='radio' name='gender' value='Male'> Male<br>
+        <input type='radio' name='gender' value='Female'> Female<br>
+        <input type='submit' value='Create Account'>
+      </div>
+    </form>
+  </body>
